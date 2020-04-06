@@ -36,8 +36,8 @@ func main() {
 	fmt.Println("[INFO] add message create handler")
 
 	// Give all members the default role
-	//initRoles(discord)
-	//fmt.Println("[INFO] completed initRoles")
+	initRoles(discord)
+	fmt.Println("[INFO] completed initRoles")
 
 	// Await termination request from the operating system
 	sc := make(chan os.Signal, 1)
