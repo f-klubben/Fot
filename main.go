@@ -10,7 +10,7 @@ import (
 )
 
 // Fember role
-var defaultRole = "000000000000000000"
+var defaultRole = "692808269525286992"
 
 func main() {
 	authToken, ok := os.LookupEnv("AUTH_TOKEN")
